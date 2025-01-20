@@ -151,6 +151,10 @@ body {
   opacity: 0;
 }
 
+.header-link span {
+  color: #404bbf;
+}
+
 .header-link:focus::after {
   opacity: 1;
 }
