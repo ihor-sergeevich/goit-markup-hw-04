@@ -139,7 +139,7 @@ body {
 
 .header-link::after {
   display: block;
-  position: relative;
+  position: absolute;
   content: '';
   border-radius: 2px;
   width: 48px;
