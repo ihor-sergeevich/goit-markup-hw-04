@@ -81,7 +81,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  color: var(--iris);
+  color: #404bbf;
 }
 
 .logo span {
@@ -133,8 +133,7 @@ body {
   opacity: 0;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-link:hover {
   color: #404bbf;
 }
 
@@ -151,6 +150,9 @@ body {
   opacity: 0;
 }
 
+.header-link:focus::after {
+  opacity: 1;
+}
 /* END-HEADER */
 
 /* === HERO === */
