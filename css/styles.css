@@ -81,7 +81,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  color: #404bbf;
+  color: var(--iris);
 }
 
 .logo span {
@@ -138,13 +138,14 @@ body {
 }
 
 .header-link::after {
-  position: absolute;
+  display: block;
+  position: relative;
   content: '';
-  width: 100%;
+  border-radius: 2px;
+  width: 48px;
   height: 4px;
   left: 0;
   bottom: -1px;
-  border-radius: 2px;
   background-color: #404bbf;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
