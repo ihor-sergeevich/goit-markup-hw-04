@@ -133,7 +133,8 @@ body {
   opacity: 0;
 }
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
 }
 
@@ -150,9 +151,6 @@ body {
   opacity: 0;
 }
 
-.header-link:focus::after {
-  opacity: 1;
-}
 /* END-HEADER */
 
 /* === HERO === */
